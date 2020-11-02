@@ -10,7 +10,10 @@ setup(name='hsz',
         packages=['hsz'],
         install_requires=[
             'tqdm',
-            'attrs'
+            'attrs',
+            'pandas',
+            'numba',
+            'sympy'
         ],
         include_package_data=True,
         zip_safe=False)

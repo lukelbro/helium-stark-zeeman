@@ -4,7 +4,7 @@
 """
 import attr
 import numpy as np
-from .State import State
+from .state import State
 
 class Basis(object):
     """ Class to represent the a basis of States.

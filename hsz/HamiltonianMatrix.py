@@ -7,9 +7,9 @@ Created on Wed 04 Jul 2017
 from operator import attrgetter
 import numpy as np
 from tqdm import trange
-from .Basis import Basis, basis_states
-from .State import State, get_qd, energy
-from .InteractionMatrix import InteractionMatrix, stark_interaction, zeeman_interaction
+from .basis import Basis, basis_states
+from .state import State, get_qd, energy
+from .interactionMatrix import InteractionMatrix, stark_interaction, zeeman_interaction
 from .constants import *
 from .numerov import wf
 
